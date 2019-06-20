@@ -1,0 +1,217 @@
+/* header styling*/
+header {
+    width: 100%;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #cccccc;
+    margin-top: 0%;
+        
+}
+
+.name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 30px; 
+    font-size: 24px;
+    width: 200px;
+    margin-left: 250px;
+    font-weight: bold;
+    position: relative;
+
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.tags {
+    float: right;
+    color: #777777;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-right: 310px;
+
+}
+
+.about-tag {
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #cccccc;
+}
+
+.portfolio-tag {
+    float: left;
+    padding: 10px;
+    border-right: 1px solid #cccccc;
+}
+
+.contact-tag {
+    float: left;
+    padding: 10px;
+}
+
+/* body for all pages*/
+body {
+    clear: both;
+    width: 100%;
+    background-color: #dddddd;
+    margin: 0%;
+
+}
+
+.mainbody {
+    width: 960px;
+    margin-left: 230px;
+    padding: 20px;
+}
+
+/* about page styling */
+.aboutme {
+    width: 930px;
+    text-align: justify;
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.h1aboutme {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.biopic {
+    float: left;
+    margin-right: 20px;
+}
+
+p { 
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    line-height: 30px;
+}
+
+
+/* contact page styling */
+.contact {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 930px;
+    height: 450px;
+}
+
+.h1contact {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.boxheadings {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding: 10px;
+
+}
+
+.namebox {
+    border: 1px solid #dddddd;
+    width: 100%;
+    padding: 2px;
+    padding-right: 830px;
+    padding-left: 10px;
+}
+
+.emailbox {
+    border: 1px solid #dddddd;
+    width: 700px;
+    height: fit-content;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 760px;
+}
+
+.messagebox {
+    border: 1px solid #dddddd;
+    width: 600px;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 730px;
+    padding-bottom: 100px;
+    
+}
+
+.submit {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    border: 1px solid #4aaaa5;
+    background: #4aaaa5;
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 20px,
+}
+
+/* portfolio page styling */
+.h1portfolio {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.portfolio {
+    background-color: #ffffff;
+    padding: 20px;
+    height: 440px;
+    margin-bottom: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+.imagetext {
+    position: absolute;
+    bottom: 10px;
+    width: 180px;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container1 {
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.container2 {
+    float: left;
+}
+
+.container3 {
+    clear: both;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.container4 {
+    float: left;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    padding: 20px;
+    margin-top: 30px;
+}
