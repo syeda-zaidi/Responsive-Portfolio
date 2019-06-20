@@ -11,10 +11,10 @@ header {
 .name {
     background-color: #4aaaa5;
     color: #ffffff;
-    padding: 30px; 
+    padding: 2%; 
     font-size: 24px;
-    width: 200px;
-    margin-left: 250px;
+    width: 12%;
+    margin-left: 16%;
     font-weight: bold;
     position: relative;
 
@@ -31,7 +31,7 @@ a {
     position: absolute;
     right: 0;
     top: 40px;
-    margin-right: 310px;
+    margin-right: 20%;
 
 }
 
@@ -62,18 +62,18 @@ body {
 }
 
 .mainbody {
-    width: 960px;
-    margin-left: 230px;
-    padding: 20px;
+    width: 70%;
+    margin-left: 14%;
+    padding: 2%;
 }
 
 /* about page styling */
 .aboutme {
-    width: 930px;
+    width: 100%;
     text-align: justify;
     border: 2px solid #dddddd;
     background-color: #ffffff;
-    padding: 20px;
+    padding: 2%;
 }
 
 .h1aboutme {
@@ -216,11 +216,21 @@ footer {
     margin-top: 30px;
 }
 
-@media screen (max-width: 900pxpx) {
+@media screen (max-width: 900px) {
     body {
-        max-width: 900px; 
-    }
+        max-width: 100%; 
+    } 
+    
 
     .mainbody {
-        max-width: 700px;
+        max-width: ;
+    }
+
+    .name {
+        font-size: 18px;
+
+    }
+
+    p {
+        line-height: 15px;
     }
