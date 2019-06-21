@@ -1,0 +1,32 @@
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+    body {
+        max-width: 100%; 
+    } 
+
+    div.name {
+        font-weight: normal ;
+        font-size: 18px;
+        margin-left: 10%;
+    }
+
+    section.portfolio {
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+    body {
+        max-width: 100%;
+    }
+
+    div.name {
+        font-weight: normal;
+        font-size: 18px;
+        margin-left: 10%;
+    }
+
+    section.portfolio {
+        height: 900px;
+    }
+}
