@@ -66,7 +66,6 @@ body {
     width: 70%;
     margin-left: 14%;
     padding: 2%;
-    height: ;
 }
 
 /* about page styling */
@@ -117,7 +116,6 @@ p {
 
 .namebox {
     border: 1px solid #dddddd;
-    width: ;
     padding: 2px;
     padding-right: 80%;
     padding-left: 1%;
@@ -125,7 +123,6 @@ p {
 
 .emailbox {
     border: 1px solid #dddddd;
-    width: ;
     height: fit-content;
     padding: 2px ;
     padding-left: 1%;
@@ -165,7 +162,6 @@ p {
     padding: 20px;
     height: 440px;
     margin-bottom: 2%;
-    padding-bottom: ;
 }
 
 .container {
